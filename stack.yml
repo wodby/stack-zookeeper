@@ -9,6 +9,7 @@ services:
 - name: zookeeper
   title: ZooKeeper
   service: zookeeper
+  depends: zookeeper-operator
   links:
   - name: operator
     service: zookeeper-operator
