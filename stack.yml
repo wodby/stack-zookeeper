@@ -12,3 +12,5 @@ services:
   links:
   - name: operator
     service: zookeeper-operator
+  depends:
+  - zookeeper-operator
