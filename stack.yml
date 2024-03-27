@@ -1,7 +1,8 @@
 name: zookeeper
 title: ZooKeeper
 icon: zookeeper
-operator: zookeeper-operator
+operators:
+- stack: zookeeper-operator
 
 services:
 - name: zookeeper
