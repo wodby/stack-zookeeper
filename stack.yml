@@ -1,16 +1,9 @@
 name: zookeeper
 title: ZooKeeper
 icon: zookeeper
+operator: zookeeper-operator
 
 services:
-- name: zookeeper-operator
-  title: ZooKeeper Operator
-  service: zookeeper-operator
 - name: zookeeper
   title: ZooKeeper
   service: zookeeper
-  links:
-  - name: operator
-    service: zookeeper-operator
-  depends:
-  - zookeeper-operator
