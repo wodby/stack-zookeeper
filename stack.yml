@@ -6,4 +6,3 @@ services:
 - name: zookeeper
   title: ZooKeeper
   service: zookeeper
-  operator: zookeeper-operator
