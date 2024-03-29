@@ -6,3 +6,6 @@ services:
 - name: zookeeper
   title: ZooKeeper
   service: zookeeper
+  operators: 
+  - name: operator
+    stack: zookeeper-operator
