@@ -1,6 +1,7 @@
 name: zookeeper
 title: ZooKeeper
 icon: zookeeper
+docs: https://wodby.com/docs/2.0/stacks/catalog/zookeeper/
 
 services:
 - name: zookeeper
